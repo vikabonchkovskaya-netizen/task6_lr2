@@ -1,0 +1,9 @@
+﻿  task_1.cpp
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(1,4): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(2,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "using namespace"
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(6,5): error C2065: cin: необъявленный идентификатор
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(11,17): error C2065: A: необъявленный идентификатор
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(12,21): error C2065: A: необъявленный идентификатор
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(14,5): error C2065: cout: необъявленный идентификатор
+C:\Users\Vika\Documents\553501\ОАиП\LR2\task_1\task_1.cpp(14,32): error C2065: endl: необъявленный идентификатор
