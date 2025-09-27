@@ -3,17 +3,16 @@
 
 int main()
 {
-    double x, n, A, m, Y, K, D;
-    std::cout << "Enter x, n, m, K" << std::endl;
-    std::cin >> x >> n >> m >> K;
-    A = fabs(n + m);
-    if (A == 0) {
+    double x, A, K, y, C, D, S;
+    std::cout << "Enter x, p, K, C" << std::endl;
+    std::cin >> x >> y >> K >> C;
+    if (C == 0  || K == 0) {
         std::cout << "division by zero" << std::endl;
         return 1;
     }
-
-    D = tan(x);
-    Y = 1.29 + K / A + pow(D, 2);
-    std::cout << Y;
+    A = x + y;
+    D = fabs(C - A);
+    S = 10.1 + A / C + D / pow(K, 2);
+    std::cout << S;
     return 0;
 }
