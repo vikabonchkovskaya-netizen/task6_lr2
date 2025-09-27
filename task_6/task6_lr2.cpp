@@ -11,7 +11,7 @@ int main()
         return 1;
     }
     A = x - p;
-    B = ln(h);
+    B = log(h);
     Y = 0.78*B +  pow (A,3)/K*C*D ;
     std::cout << Y;
     return 0;
