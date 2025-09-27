@@ -3,21 +3,17 @@
 
 int main()
 {
-    double x, y, A, B, z, K, T, D, C;
-    std::cout << "Enter x, y, z, K, D, C" << std::endl;
-    std::cin >> x >> y >> z >> K >> D >> C;
-    A = x - y;
-    B = sqrt(z);
-    if (z < 0) {
-        std::cout << "negative value under square root" << std::endl;
-        return 1;
-    }
-    if (K - C * D == 0) {
+    double x, n, A, m, Y, K, D;
+    std::cout << "Enter x, n, m, K" << std::endl;
+    std::cin >> x >> n >> m >> K;
+    A = fabs(n + m);
+    if (A == 0) {
         std::cout << "division by zero" << std::endl;
         return 1;
     }
 
-    T = cos(x) + pow(A, 2) / (K - C * D) - B;
-    std::cout << T;
+    D = tan(x);
+    Y = 1.29 + K / A + pow(D, 2);
+    std::cout << Y;
     return 0;
 }
