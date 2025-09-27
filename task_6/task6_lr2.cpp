@@ -1,26 +1,19 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
 
 int main()
 {
-    double x, b, D, A, S;
-    cout << "Enter x, D: " << endl;
-    cin >> x >> D;
-    b = x + D;
-    if (b == 0)
-    {
-        cout << "division by zero" << endl;
-        return 1;
-    }
-    A = D*(x/b);
-    double del = pow(D, 3) + (A + D - b);
-    if (del == 0) 
-    {
-        cout << "division by zero" << endl;
-        return 1;
-    }
-    S = (A * A + b * cos(x)) / del;
-   cout <<S;
-    return 0; 
+    double x, A, B, p, K, Y, C, D;
+    std::cout << "Enter x, p, K, C, D" << std::endl;
+    std::cin >> x >> p >> K >> C >> D;
+    B = exp(K);
+    A = x + sin(p);
+    if (A == 0 || B == 0) {
+    std::cout << "division by zero" << std::endl;
+    return 1;
+}
+
+    Y = 1 + pow(K, 2) / (2 * A * B) - B + D * C;
+    std::cout << Y;
+    return 0;
 }
