@@ -3,16 +3,16 @@
 
 int main()
 {
-    double A,x,d,B,e,Y,C,K;
-    std::cout << "Enter x,e,d,K,C" << std::endl;
-    std::cin >> x >> e >> d >> C >> K ;
-    if (K == 0) {
+    double A,x,z,B,p,Y,C,K,D;
+    std::cout << "Enter x,z,p,K,C,D" << std::endl;
+    std::cin >> x >> z >> p >> C >> K >> D ;
+    if (C*D == 0) {
         std::cout << "division by zero" << std::endl;
         return 1;
     }
-    A = log10(x);
-    B = x + pow (e,d);
-    Y = (A+B) - pow (C,2)/K ;
+    A = sin(x)-z;
+    B = fabs(p-x);
+    Y = pow(A+B,2) - K/C*D ;
     std::cout << Y;
     return 0;
 }
