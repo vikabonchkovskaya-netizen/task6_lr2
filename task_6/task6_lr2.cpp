@@ -5,7 +5,7 @@ int main()
 {
     double A,x,p,B,h,Y,C,D;
     std::cout << "Enter x,p,h,K,C,D" << std::endl;
-    std::cin >> x >> P >> K >> C >> D >> h;
+    std::cin >> x >> p >> K >> C >> D >> h;
     if (K*C*D == 0) {
         std::cout << "division by zero" << std::endl;
         return 1;
